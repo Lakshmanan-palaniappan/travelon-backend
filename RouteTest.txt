@@ -1,0 +1,64 @@
+Register Tourist:
+POST
+
+{
+  "name": "Leo",
+  "kycType": "Passport",
+  "kycData": "Passport:12345|tripStart:2025-10-01|tripEnd:2025-10-07|itineraryHash:0xabc",
+  "approved": true
+}
+
+Update Tourist approval:
+POST
+
+{
+  "touristId": 1,
+  "approved": false
+}
+
+
+Verify TOurist KYC:
+POST
+
+{
+  "touristId": 1,
+  "kycData": "Passport:12345|tripStart:2025-10-01|tripEnd:2025-10-07|itineraryHash:0xabc"
+}
+
+Log Alert:
+POST
+
+{
+  "touristId": 1,
+  "alertData": "SOS|lat:25.123|lon:85.456|ts:2025-10-02T10:05:00Z|type:SOS"
+}
+
+
+Verify Alert:
+POST
+
+{
+  "alertId": 1,
+  "alertData": "SOS|lat:25.123|lon:85.456|ts:2025-10-02T10:05:00Z|type:SOS"
+}
+
+
+Register Agency:
+POST
+
+{
+  "name": "Northeast Tours Pvt Ltd",
+  "approved": true
+}
+
+Update Agency Approval:
+POST
+
+{
+  "agencyId": 1,
+  "approved": false
+}
+
+
+
+
