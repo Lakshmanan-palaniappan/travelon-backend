@@ -1,0 +1,29 @@
+{
+  "name": "travelon-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "7zip-bin": "^5.2.0",
+    "adm-zip": "^0.5.16",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "multer": "^2.0.2",
+    "node-7z": "^3.0.0",
+    "node-stream-zip": "^1.15.0",
+    "unzipper": "^0.12.3",
+    "xml-crypto": "^6.1.2",
+    "xml2js": "^0.6.2",
+    "xmldom": "^0.6.0",
+    "yauzl-promise": "^4.0.0"
+  }
+}
